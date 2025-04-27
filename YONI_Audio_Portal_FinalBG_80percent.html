@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>封印解除 | YONI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000;
+      background-image: url('https://raw.githubusercontent.com/yoni-adi/YONI/main/63500e79-504e-40d4-9fc1-2efccca2c462.png');
+      background-size: 80%;
+      background-position: center top;
+      background-repeat: no-repeat;
+      color: #fff;
+      font-family: 'Yuji Syuku', serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header {
+      position: absolute;
+      top: 20px;
+      width: 100%;
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 8em;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+      text-shadow: 0 0 8px rgba(0, 255, 255, 0.8), 0 0 16px rgba(0, 255, 255, 0.6);
+      z-index: 10;
+      pointer-events: none;
+      opacity: 0;
+      animation: stableAppear 2s ease forwards, noiseFlicker 10s infinite ease-in-out;
+      animation-delay: 1s, 3s;
+    }
+    h1 {
+      font-size: 2.4em;
+      margin-top: 2em;
+      margin-bottom: 1em;
+      text-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+      z-index: 1;
+    }
+    audio {
+      width: 320px;
+      max-width: 90%;
+      filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.6));
+      z-index: 1;
+    }
+
+    .seal {
+      position: absolute;
+      width: 40px;
+      height: 100px;
+      background: url('https://www.dropbox.com/scl/fi/kzatocpryzcqynwbh35jz/b35f5727-b912-4382-b076-434742276ee3.png?rlkey=3toq4uvxqk38t9hud66ok4o2d&raw=1') no-repeat center/contain;
+      animation: sway 6s ease-in-out infinite alternate, fadeInOut 12s ease-in-out infinite alternate;
+      z-index: 2;
+      opacity: 0.5;
+    }
+
+    @keyframes sway {
+      0% { transform: rotate(-3deg); }
+      50% { transform: rotate(3deg); }
+      100% { transform: rotate(-3deg); }
+    }
+
+    @keyframes fadeInOut {
+      0%, 10% { opacity: 0.2; }
+      30%, 70% { opacity: 0.6; }
+      90%, 100% { opacity: 0.2; }
+    }
+
+    @keyframes stableAppear {
+      0% { opacity: 0; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.05); }
+      100% { opacity: 1; transform: scale(1); text-shadow: 0 0 15px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.6); }
+    }
+
+    @keyframes noiseFlicker {
+      0%, 100% { opacity: 1; text-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.6); }
+      25% { opacity: 0.9; text-shadow: 0 0 6px rgba(0, 255, 255, 0.6), 0 0 12px rgba(0, 255, 255, 0.4); }
+      50% { opacity: 1; text-shadow: 0 0 12px rgba(0, 255, 255, 0.9), 0 0 24px rgba(0, 255, 255, 0.7); }
+      75% { opacity: 0.8; text-shadow: 0 0 5px rgba(0, 255, 255, 0.5), 0 0 10px rgba(0, 255, 255, 0.3); }
+    }
+
+    /* スマホ対応：幅600px以下の場合 */
+    @media screen and (max-width: 600px) {
+      header {
+        font-size: 4em;
+      }
+      h1 {
+        font-size: 1.6em;
+      }
+      .seal {
+        width: 30px;
+        height: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+    <div class="seal" style="top:19%; left:6%; animation-delay:2.589181555995377s, 2.653782025910813s;"></div>
+    
+    <div class="seal" style="top:84%; left:6%; animation-delay:2.997285829206212s, 3.4421345516512383s;"></div>
+    
+    <div class="seal" style="top:17%; left:6%; animation-delay:2.1245402934271476s, 4.418327020951435s;"></div>
+    
+    <div class="seal" style="top:28%; left:2%; animation-delay:0.7700010383086069s, 2.560904732579085s;"></div>
+    
+    <div class="seal" style="top:52%; left:7%; animation-delay:0.06953102959187563s, 5.002850337064533s;"></div>
+    
+    <div class="seal" style="top:38%; left:6%; animation-delay:1.9021495180553427s, 4.302777421663217s;"></div>
+    
+    <div class="seal" style="top:72%; left:0%; animation-delay:1.6889891288990697s, 5.862167835504815s;"></div>
+    
+    <div class="seal" style="top:14%; left:8%; animation-delay:2.694575991756693s, 2.6336336905622435s;"></div>
+    
+    <div class="seal" style="top:65%; left:0%; animation-delay:0.11875928874680097s, 5.172498893487092s;"></div>
+    
+    <div class="seal" style="top:66%; left:7%; animation-delay:1.0055861017910446s, 4.292819395496258s;"></div>
+    
+    <div class="seal" style="top:7%; left:8%; animation-delay:2.3043265689990853s, 4.655710757934591s;"></div>
+    
+    <div class="seal" style="top:28%; left:0%; animation-delay:1.1597986146905606s, 4.476570464795463s;"></div>
+    
+    <div class="seal" style="top:55%; left:3%; animation-delay:1.1839496249125139s, 5.646866826100334s;"></div>
+    
+    <div class="seal" style="top:31%; left:7%; animation-delay:0.7566070506625644s, 3.669192517586782s;"></div>
+    
+    <div class="seal" style="top:34%; left:7%; animation-delay:0.592690147698908s, 3.925286030170817s;"></div>
+    
+    <div class="seal" style="top:58%; left:3%; animation-delay:2.278372449814085s, 4.049774669545306s;"></div>
+    
+    <div class="seal" style="top:59%; left:4%; animation-delay:0.5888620083908188s, 3.155748915742155s;"></div>
+    
+    <div class="seal" style="top:55%; left:2%; animation-delay:2.7353193321207563s, 3.3324865392204552s;"></div>
+    
+    <div class="seal" style="top:40%; left:7%; animation-delay:1.241177261477282s, 3.405278344693377s;"></div>
+    
+    <div class="seal" style="top:40%; left:0%; animation-delay:2.9559311831279387s, 4.7098330494010145s;"></div>
+    
+    <div class="seal" style="top:85%; right:1%; animation-delay:2.533145546525s, 2.1468233558385186s;"></div>
+    
+    <div class="seal" style="top:40%; right:5%; animation-delay:1.3725279116234912s, 3.8662177520878167s;"></div>
+    
+    <div class="seal" style="top:18%; right:0%; animation-delay:0.42066737581804803s, 2.8492088655874586s;"></div>
+    
+    <div class="seal" style="top:62%; right:6%; animation-delay:0.20431373730037838s, 2.9200571081232725s;"></div>
+    
+    <div class="seal" style="top:65%; right:0%; animation-delay:1.374999394328407s, 3.8525093442823772s;"></div>
+    
+    <div class="seal" style="top:74%; right:7%; animation-delay:2.1116845765622876s, 2.896241450766098s;"></div>
+    
+    <div class="seal" style="top:76%; right:1%; animation-delay:0.6206122714260093s, 4.763127842261611s;"></div>
+    
+    <div class="seal" style="top:61%; right:6%; animation-delay:1.1896272418572582s, 4.247100671296263s;"></div>
+    
+    <div class="seal" style="top:21%; right:4%; animation-delay:2.204562936773712s, 4.945700001862446s;"></div>
+    
+    <div class="seal" style="top:42%; right:6%; animation-delay:1.4783543215687658s, 5.052671314296303s;"></div>
+    
+    <div class="seal" style="top:64%; right:0%; animation-delay:1.327460968842449s, 4.118096680880736s;"></div>
+    
+    <div class="seal" style="top:38%; right:3%; animation-delay:0.7328932519950327s, 5.490746504741147s;"></div>
+    
+    <div class="seal" style="top:56%; right:5%; animation-delay:0.7590052483790367s, 3.0149427789510193s;"></div>
+    
+    <div class="seal" style="top:80%; right:6%; animation-delay:0.21132338825946717s, 2.383725710458136s;"></div>
+    
+    <div class="seal" style="top:25%; right:7%; animation-delay:1.960976749790251s, 5.940105357426065s;"></div>
+    
+    <div class="seal" style="top:68%; right:0%; animation-delay:0.023427138971416572s, 4.196476546943806s;"></div>
+    
+    <div class="seal" style="top:26%; right:6%; animation-delay:2.7345972009974497s, 2.480922246141343s;"></div>
+    
+    <div class="seal" style="top:56%; right:4%; animation-delay:1.6502919823532594s, 3.0327572952730546s;"></div>
+    
+    <div class="seal" style="top:11%; right:4%; animation-delay:2.3768467776157554s, 2.767279150579344s;"></div>
+    
+    <div class="seal" style="top:39%; right:6%; animation-delay:2.5564641493570956s, 5.888986325882135s;"></div>
+    
+  <header>-YONI-</header>
+
+  <h1>封印解除中…</h1>
+
+  <audio controls>
+    <source src="https://www.dropbox.com/scl/fi/uh8wgsv1wp0atcfoq2a6s/0_0_-1.wav?rlkey=ehbb2dw9ouzzsqx02j3bgata3&st=c39bpzlg&raw=1" type="audio/wav" />
+    お使いのブラウザは音声再生に対応していません。
+  </audio>
+</body>
+</html>
